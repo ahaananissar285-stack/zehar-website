@@ -1,0 +1,475 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Collection | ZE­HAR</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<header class="navbar">
+    <div class="nav-inner">
+
+        <a href="index.html" class="logo">ZE­HAR</a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Collection</a></li>
+                <li><a href="signature.html">Signature</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="orders.html">Custom Orders</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+</header>
+
+
+<!-- PAGE INTRODUCTION -->
+<section class="page-hero pattern-bg">
+
+    <div class="container">
+
+        <p class="section-eyebrow">A World of Delicate Flavours</p>
+
+        <h1>Our Collection</h1>
+
+        <p>
+            A thoughtful collection of handcrafted desserts,
+            inspired by Arabian heritage and the art of fine patisserie.
+        </p>
+
+        <div class="separator separator-center"></div>
+
+    </div>
+
+</section>
+
+
+<!-- FEATURED COLLECTION -->
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <p class="section-eyebrow">Curated With Love</p>
+
+            <h2 class="section-title">Discover Something Beautiful</h2>
+
+            <p class="section-desc">
+                From delicate floral creations to rich chocolate indulgences,
+                every dessert tells its own story.
+            </p>
+
+        </div>
+
+
+        <!-- CATEGORY FILTERS -->
+        <div class="filter-bar">
+
+            <button class="filter-btn active" data-filter="all">
+                All Desserts
+            </button>
+
+            <button class="filter-btn" data-filter="cakes">
+                Cakes
+            </button>
+
+            <button class="filter-btn" data-filter="arabian">
+                Arabian Sweets
+            </button>
+
+            <button class="filter-btn" data-filter="pastries">
+                Pastries
+            </button>
+
+            <button class="filter-btn" data-filter="chocolate">
+                Chocolate
+            </button>
+
+        </div>
+
+
+        <!-- PRODUCT GRID -->
+        <div class="menu-grid">
+
+
+            <!-- PRODUCT 1 -->
+            <article class="menu-card" data-category="cakes">
+
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=85"
+                         alt="Pistachio celebration cake">
+                </div>
+
+                <div class="menu-card-body">
+
+                    <p class="category">Signature Cake</p>
+
+                    <h3>Emerald Pistachio</h3>
+
+                    <p>
+                        Delicate pistachio sponge layered with
+                        silky cream and roasted pistachios.
+                    </p>
+
+                    <span class="price">₹1,200</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 2 -->
+            <article class="menu-card" data-category="arabian">
+
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=800&q=85"
+                         alt="Kunafa dessert">
+                </div>
+
+                <div class="menu-card-body">
+
+                    <p class="category">Arabian Favourite</p>
+
+                    <h3>Royal Kunafa</h3>
+
+                    <p>
+                        Golden shredded pastry filled with
+                        creamy cheese and delicate sugar syrup.
+                    </p>
+
+                    <span class="price">₹450</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 3 -->
+            <article class="menu-card" data-category="cakes">
+
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&q=85"
+                         alt="Raspberry rose cake">
+                </div>
+
+                <div class="menu-card-body">
+
+                    <p class="category">Floral Collection</p>
+
+                    <h3>Damask Rose</h3>
+
+                    <p>
+                        Rose-infused mousse with raspberry
+                        and delicate edible flower petals.
+                    </p>
+
+                    <span class="price">₹1,350</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 4 -->
+            <article class="menu-card" data-category="chocolate">
+
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=85"
+                         alt="Chocolate cake">
+                </div>
+
+                <div class="menu-card-body">
+
+                    <p class="category">Chocolate Collection</p>
+
+                    <h3>Midnight Chocolate</h3>
+
+                    <p>
+                        Rich dark chocolate layers with
+                        smooth ganache and roasted hazelnuts.
+                    </p>
+
+                    <span class="price">₹1,100</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 5 -->
+            <article class="menu-card" data-category="pastries">
+
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=85"
+                         alt="Fresh golden croissants">
+                </div>
+
+                <div class="menu-card-body">
+
+                    <p class="category">French Patisserie</p>
+
+                    <h3>Golden Croissant</h3>
+
+                    <p>
+                        Buttery, flaky layers baked to
+                        a beautiful golden finish.
+                    </p>
+
+                    <span class="price">₹180</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 6 -->
+            <article class="menu-card" data-category="arabian">
+
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=85"
+                         alt="Date and nut dessert">
+                </div>
+
+                <div class="menu-card-body">
+
+                    <p class="category">Arabian Collection</p>
+
+                    <h3>Royal Date Delight</h3>
+
+                    <p>
+                        Naturally sweet dates paired with
+                        toasted almonds and smooth cream.
+                    </p>
+
+                    <span class="price">₹380</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 7 -->
+            <article class="menu-card" data-category="pastries">
+
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=85"
+                         alt="Creamy individual pastry">
+                </div>
+
+                <div class="menu-card-body">
+
+                    <p class="category">Delicate Pastry</p>
+
+                    <h3>Saffron Cloud</h3>
+
+                    <p>
+                        Light cream infused with aromatic
+                        saffron and a hint of honey.
+                    </p>
+
+                    <span class="price">₹320</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 8 -->
+            <article class="menu-card" data-category="chocolate">
+
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=85"
+                         alt="Chocolate brownie dessert">
+                </div>
+
+                <div class="menu-card-body">
+
+                    <p class="category">Chocolate Collection</p>
+
+                    <h3>Velvet Brownie</h3>
+
+                    <p>
+                        A rich chocolate brownie with
+                        a soft centre and roasted nuts.
+                    </p>
+
+                    <span class="price">₹220</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 9 -->
+            <article class="menu-card" data-category="cakes">
+
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=800&q=85"
+                         alt="Elegant mini celebration cake">
+                </div>
+
+                <div class="menu-card-body">
+
+                    <p class="category">Mini Collection</p>
+
+                    <h3>Ivory Blossom</h3>
+
+                    <p>
+                        A delicate vanilla cake with
+                        soft cream and floral decoration.
+                    </p>
+
+                    <span class="price">₹850</span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- BRAND BANNER -->
+<section class="seasonal-banner">
+
+    <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1600&q=85"
+         alt="Soft botanical flowers">
+
+    <div class="overlay"></div>
+
+    <div class="container">
+
+        <div class="seasonal-content">
+
+            <p class="section-eyebrow">The Art of Fine Patisserie</p>
+
+            <h2>Every Detail Has a Story</h2>
+
+            <div class="separator"></div>
+
+            <p>
+                Inspired by the warmth of Arabian hospitality
+                and the beauty of thoughtful craftsmanship.
+            </p>
+
+            <a href="signature.html" class="btn">
+                Explore Signature Desserts
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">ZE­HAR</a>
+
+                <p>
+                    A modern Arabian patisserie dedicated to
+                    soft organic luxury and the quiet art of celebration.
+                </p>
+
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">Ig</a>
+                    <a href="#" aria-label="Pinterest">Pin</a>
+                    <a href="#" aria-label="Facebook">Fb</a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-col">
+
+                <h4>Explore</h4>
+
+                <ul>
+                    <li><a href="menu.html">Our Collection</a></li>
+                    <li><a href="signature.html">Signature Desserts</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                </ul>
+
+            </div>
+
+
+            <div class="footer-col">
+
+                <h4>Atelier</h4>
+
+                <ul>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="orders.html">Custom Orders</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+
+
+            <div class="footer-col">
+
+                <h4>Visit Us</h4>
+
+                <ul>
+                    <li>ZE­HAR Patisserie</li>
+                    <li>Garden District</li>
+                    <li>Tue – Sun, 10 – 19</li>
+                    <li>hello@zehar.atelier</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>© 2026 ZE­HAR. All rights reserved.</span>
+
+            <span>A Taste of Royalty.</span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
